@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hangman Game</h1>
+      <div class="hangman">
+        <img src="hangman.png" alt="hangman">
+      </div>
+      <div class="word">
+        <p id="word"></p>
+      </div>
+      <div class="letters">
+        <p>Remaining chances: <span id="remaining-chances">6</span></p>
+        <div id="letters"></div>
+      </div>
+      <div id="message"></div>
+      <div class="buttons">
+        <button id="restart-button">Restart</button>
+      </div>
+    </div>
+
+    <script src="hangman.js"></script>
+  </body>
+</html>
