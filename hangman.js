@@ -1,6 +1,5 @@
 // Define the list of words
-const words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'orange', 'papaya', 'pineapple', 'peach', 'pear', 'plum', 'raspberry', 'strawberry', 'watermelon'];
-
+const words = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape', 'honeydew', 'kiwi', 'lemon', 'mango', 'orange', 'papaya', 'pineapple', 'peach', 'pear', 'plum', 'raspberry', 'strawberry', 'watermelon', 'acai', 'apricot', 'blackberry', 'blueberry', 'cantaloupe', 'clementine', 'cranberry', 'dragonfruit', 'grapefruit', 'guava', 'jackfruit', 'lime', 'lychee', 'mandarin', 'mulberry', 'nectarine', 'olive', 'passionfruit', 'pomegranate', 'quince', 'redcurrant', 'tangerine', 'ugli fruit', 'vanilla bean', 'yellow watermelon'];
 // Select a random word from the list
 let word = words[Math.floor(Math.random() * words.length)];
 
